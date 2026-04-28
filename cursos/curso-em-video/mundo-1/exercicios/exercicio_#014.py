@@ -1,8 +1,10 @@
 # Escreva um programa que converta uma temperatura digitando em graus Celcius e converta para graus Fahrenheit. 
 
-print("Conversor de Celsius para Fahrenheit!")
+from cores import LIMPAR, VERMELHO_BOLD, CINZA_BOLD, PRETO_BACKGROUND
 
-graus_celsius = float(input("Digite a temperatura [C°]:"))
+print(f"{PRETO_BACKGROUND}Conversor de Celsius para Fahrenheit!{LIMPAR}")
+
+graus_celsius = float(input(f"{CINZA_BOLD}Digite a temperatura {VERMELHO_BOLD}[C°]{CINZA_BOLD}: "))
 graus_fahrenheit = (graus_celsius * 1.8) + 32
 
-print(f"Temperatura em graus Fahrenheit: {graus_fahrenheit:.1f}°F")
+print(f"{LIMPAR}{CINZA_BOLD}Temperatura em graus Fahrenheit: {VERMELHO_BOLD}{graus_fahrenheit:.1f}{CINZA_BOLD}°F{LIMPAR}")
