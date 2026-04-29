@@ -2,24 +2,25 @@
 # O Programa deverá escrever na tela se o usuário venceu ou perdeu.
 
 from random import randrange
+from cores import LIMPAR, CINZA_BOLD, VERDE_BOLD, VERMELHO_BOLD, CIANO_BOLD, VERMELHO_BACKGROUND
 
 DIV = 35
 
 print('' * DIV)
-print('TENTE ADVINHAR O NÚMERO DE 0 A 10')
+print(f'{CINZA_BOLD}TENTE ADVINHAR O NÚMERO DE {CIANO_BOLD}0{LIMPAR}{CIANO_BOLD} A {CIANO_BOLD}10{LIMPAR}')
 print('-' * DIV)
 
 try:
-    resposta_usuario = int(input('Em qual número estou pensando? '))
+    resposta_usuario = int(input(f'{CINZA_BOLD}Em qual {CIANO_BOLD}número{CINZA_BOLD} estou pensando? '))
 
     numero_aleatorio = randrange(0,10)
 
     if resposta_usuario == numero_aleatorio:
-        print(f'Você acertou! O número era {numero_aleatorio}')
+        print(f'Você {VERDE_BOLD}acertou{CINZA_BOLD}! O número era {VERDE_BOLD}{numero_aleatorio}')
     elif resposta_usuario > 5:
-        print('Oops! Esse número é maior que 5, tente novamente.')    
+        print(f'{VERMELHO_BACKGROUND}Oops! Esse número é maior que 5, tente novamente.{LIMPAR}')    
     else:
-        print(f'Você errou, o número era {numero_aleatorio}')
+        print(f'{CINZA_BOLD}Você {VERMELHO_BOLD}errou{CINZA_BOLD}, o número era {CIANO_BOLD}{numero_aleatorio}{LIMPAR}')
 
 except ValueError:
-    print('Oops! O valor digitado não é um número, tente novamente.')
+    print(f'{VERMELHO_BACKGROUND}Oops! O valor digitado não é um número, tente novamente.{LIMPAR}')
