@@ -3,18 +3,19 @@
 # A multa vai custar R$7,00 por cada Km acima do limite. 
 
 from random import randrange
+from cores import LIMPAR, VERMELHO_BOLD, VERDE_BOLD, CINZA_BOLD, AMARELO_BOLD
 
 DIV = 27
-VELOCIDADE_CARRO = randrange(10, 220)
+VELOCIDADE_CARRO = randrange(10, 220)   
 LIMITE_RADAR = 80
 VALOR_MULTA = (VELOCIDADE_CARRO - LIMITE_RADAR) * 7
 
 print('' * DIV)
-print('RADAR DE VELOCIDADE 80KM/H')
-print('-' * DIV)
+print(f'{CINZA_BOLD}RADAR DE VELOCIDADE {VERMELHO_BOLD}80{CINZA_BOLD}KM/H{LIMPAR}')
+print(f'{AMARELO_BOLD}-{LIMPAR}' * DIV)
 
 if VELOCIDADE_CARRO > LIMITE_RADAR:
-    print(f'Você ultrapassou o limite de velocidade! [{VELOCIDADE_CARRO}Km/h]')
-    print(f'Multa: R${VALOR_MULTA:.2f}')
+    print(f'{CINZA_BOLD}Você {VERMELHO_BOLD}ultrapassou{CINZA_BOLD} o limite de velocidade! {VERMELHO_BOLD}[{VELOCIDADE_CARRO}Km/h]{LIMPAR}')
+    print(f'{CINZA_BOLD}Multa: {VERDE_BOLD}R${VERMELHO_BOLD}{VALOR_MULTA:.2f}{LIMPAR}')
 else:
-    print('Tenha uma boa viagem!')
+    print(f'{CINZA_BOLD}Tenha uma {VERDE_BOLD}boa viagem{CINZA_BOLD}!{LIMPAR}')
