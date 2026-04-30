@@ -13,7 +13,7 @@ def receber_salario():
         except ValueError:
             print(f"{LIMPAR}{VERMELHO_BOLD}Erro: {CINZA_BOLD}é aceito apenas números, tente novamente!{LIMPAR}")
 
-def calcular_aumento(salario):
+def calcular_aumento(salario: float):
 
     if salario > 1250:
         salario *= 1.10
