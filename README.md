@@ -1,70 +1,101 @@
-# 🐍 Python Odyssey
-### Uma jornada contínua rumo ao domínio da programação Python — do zero ao avançado.
+# 🐍 Curso em Vídeo — Python 3
+
+> Repositório de estudos Python — Curso em Vídeo (Guanabara) | Exercícios, anotações e projetos
+
+Documentação da minha jornada pelo curso de Python 3 do professor **Gustavo Guanabara**, disponível gratuitamente pelo [Curso em Vídeo](https://www.cursoemvideo.com/). Este repositório não é apenas um arquivo de exercícios resolvidos — é um registro de evolução, onde cada commit conta uma parte do processo de aprendizado.
+
+Alguns exercícios vão além do proposto nas aulas. Por curiosidade e autodidatismo, foram aplicados recursos como tratamento de erros com `try/except`, validação de entradas, tipagem explícita, modularização e boas práticas de código limpo — conceitos que, embora não sejam requisito do curso naquele ponto, fazem parte de uma postura ativa diante do aprendizado.
 
 ---
+
+## 🛠️ Tecnologias e Ferramentas
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![OOP](https://img.shields.io/badge/POO-FF6B35?style=for-the-badge&logo=buffer&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=black)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white)
+
+**Extensões VSCode:** ZubanLS · GitLens · Git Graph
 
 ---
 
-## 📖 O que é o Python Odyssey?
+## 📚 Sobre o Curso em Vídeo — Python 3
 
-O **Python Odyssey** é um repositório pessoal criado para registrar, organizar e documentar toda a minha trajetória como programador Python. Aqui você encontrará:
+O curso de Python 3 do professor Gustavo Guanabara é uma das referências mais completas e acessíveis para quem está começando na linguagem. Estruturado em quatro módulos progressivos chamados de **Mundos**, o curso conta com mais de 100 exercícios práticos e aulas teóricas bem fundamentadas.
 
-- 📚 **Anotações de estudos** — resumos de livros, cursos e artigos
-- 🧪 **Exercícios práticos** — desde os mais simples até os mais complexos
-- ♻️ **Refatorações** — código revisitado com novos conhecimentos
-- 🗄️ **Banco de dados** — estudos de SQL integrados com Python
-- 🧩 **POO** — projetos e exemplos aplicando Orientação a Objetos
-- 🗒️ **Diário de progresso** — reflexões e marcos da jornada
+Cada Mundo representa uma camada de profundidade maior na linguagem:
 
-Este repositório funciona como um **diário de bordo técnico**: cada commit é um passo, cada pasta é um capítulo, e cada arquivo é uma lição aprendida.
+**Mundo 1 — Fundamentos**
+Introdução à linguagem Python: tipos primitivos, operadores, entrada e saída de dados, manipulação de strings e primeiros programas. A base para tudo que vem depois.
+
+**Mundo 2 — Estruturas de Controle**
+Estruturas de decisão e repetição: `if`, `elif`, `else`, `for`, `while`. O Mundo que ensina o programa a tomar decisões e repetir ações de forma controlada.
+
+**Mundo 3 — Estruturas Compostas**
+Tuplas, listas, dicionários, funções, módulos, pacotes e tratamento de erros. A linguagem ganha profundidade e os programas começam a ganhar arquitetura real.
+
+**Mundo 4 — Avançado**
+Orientação a Objetos, herança, polimorfismo e conceitos avançados da linguagem. O ponto onde Python revela sua verdadeira expressividade.
+
+Cada Mundo neste repositório contém:
+- 📝 `anotacoes/` — resumos teóricos e material de estudo em Markdown
+- 💻 `exercicios/` — todos os desafios resolvidos
+- 📓 `notebooks/` — notebooks Jupyter com explicações aprofundadas
+- 🔧 `refatorações/` — versões melhoradas de exercícios selecionados
 
 ---
 
 ## 🎯 Objetivo
 
-> *"Não basta aprender a programar. É preciso dominar a arte de pensar como um programador."*
+O objetivo deste repositório é seguir uma linha clara e honesta de aprendizado — sem pular etapas, sem subestimar o simples e sem superestimar o complexo.
 
-O objetivo central deste repositório é **dominar a linguagem Python** em toda a sua extensão — desde a sintaxe fundamental até os paradigmas mais avançados. A meta não é apenas escrever código que funciona, mas escrever código que é **limpo, eficiente, legível e bem estruturado**.
+Há uma tentação recorrente no aprendizado autodidata de buscar atalhos ou queimar fases por impaciência. Este repositório existe justamente como resistência a esse impulso. Como escreve Robert C. Martin em *Clean Code*: um código bem escrito não é aquele que funciona — é aquele que pode ser lido, entendido e mantido. Essa premissa guia cada exercício aqui registrado, mesmo os mais básicos.
 
-### Marcos da jornada:
+O progresso é documentado com honestidade: o que foi proposto, o que foi entregue, e o que foi além.
 
-| Fase | Descrição | Status |
-|------|-----------|--------|
-| 🟢 Fundamentos | Variáveis, condicionais, loops, funções | Em andamento |
-| 🔵 Estruturas de Dados | Listas, dicionários, tuplas, sets | Em andamento |
-| 🟣 POO | Classes, herança, polimorfismo, encapsulamento | Em andamento |
-| 🟡 SQL + Python | Integração com bancos de dados | Em andamento |
-| 🔴 Projetos reais | Aplicações completas do zero | Pendente |
-| ⚫ Avançado | Decorators, generators, async, metaclasses | Pendente |
+---
+
+## 🗺️ Marcos da Jornada
+
+| Mundo | Tema | Status |
+|-------|------|--------|
+| Mundo 1 | Fundamentos | ✅ Concluído |
+| Mundo 2 | Estruturas de Controle | 🔄 Em andamento |
+| Mundo 3 | Estruturas Compostas | ⏳ Pendente |
+| Mundo 4 | Avançado | ⏳ Pendente |
 
 ---
 
 ## 📁 Estrutura do Repositório
 
 ```
-python-odyssey/
+curso-em-video-python/
 │
-└── 📂 cursos/
-    └── 📂 curso-em-video/
-        ├── 📂 mundo-1/              # Fundamentos da linguagem
-        │   ├── 📂 anotacoes/        # Anotações das aulas
-        │   ├── 📂 aulas/            # Arquivos das aulas
-        │   ├── 📂 exercicios/       # Exercícios resolvidos
-        │   ├── 📂 notebooks/        # Notebooks Jupyter
-        │   └── 📂 refatoracoes/     # Código revisitado e melhorado
-        ├── 📂 mundo-2/              # Em breve...
-        └── 📂 mundo-3/              # Em breve...
+├── mundo-1/
+│   ├── anotacoes/          # Resumos teóricos em Markdown
+│   ├── exercicios/         # Exercícios resolvidos (#003 ao #035)
+│   ├── notebooks/          # Notebooks Jupyter com explicações
+│   └── refatorações/       # Versões melhoradas de exercícios
+│
+├── mundo-2/
+│   ├── anotacoes/
+│   ├── exercicios/
+│   ├── notebooks/
+│   └── refatorações/
+│
+├── mundo-3/                # ⏳ Em breve
+└── mundo-4/                # ⏳ Em breve
 ```
 
 ---
 
-## ✅ Norma de Commits
+## 📋 Norma de Commits
 
-Para manter um histórico de evolução claro e rastreável, todos os commits seguem o padrão **Conventional Commits** adaptado para este repositório:
+Para manter um histórico de evolução claro e rastreável, todos os commits seguem o padrão **Conventional Commits** adaptado para este repositório.
 
 ### Estrutura
 
@@ -72,7 +103,7 @@ Para manter um histórico de evolução claro e rastreável, todos os commits se
 <tipo>(<escopo>): <descrição curta no imperativo>
 ```
 
-### Tipos permitidos
+### Tipos Permitidos
 
 | Tipo | Uso |
 |------|-----|
@@ -86,45 +117,51 @@ Para manter um histórico de evolução claro e rastreável, todos os commits se
 | `poo` | Conteúdo relacionado a Orientação a Objetos |
 | `chore` | Tarefas de organização, renomeação de arquivos etc. |
 
-### Exemplos de commits
+### Exemplos de Commits Reais
 
 ```bash
-estudo(fundamentos): adiciona anotações sobre funções lambda
-exercicio(listas): resolve desafio de remoção de duplicatas
-refactor(poo): simplifica classe Conta com property decorator
-sql(integracao): cria script de conexão com SQLite
-docs(readme): atualiza estrutura de pastas do repositório
-projeto(agenda): adiciona funcionalidade de busca por contato
-fix(loops): corrige lógica do while no exercício 07
+exercicio(#035): analisando triângulo v1.0
+refactor(exercicio_#034): adiciona cores ANSI
+refactor(exercicio_#029): adiciona proteções, try catch e entrada por usuário
+fix(exercicio_#008): corrige localização de constante e output
+estudo(anotacoes): adiciona material de boas práticas em python
+docs(exercicios): adiciona cores.py
+chore(exercicio_#008): organização de variável
 ```
-
-### Boas práticas
-
-- ✔️ Use o **imperativo** na descrição: *"adiciona"*, *"corrige"*, *"cria"* — não *"adicionado"* ou *"adicionei"*
-- ✔️ Mantenha a descrição **curta e objetiva** (máx. 72 caracteres)
-- ✔️ Agrupe mudanças **relacionadas** em um único commit
-- ✔️ Evite commits genéricos como `update`, `fix`, `changes`
-- ✔️ Se necessário, use o corpo do commit para explicar o **porquê** da mudança
 
 ---
 
-## 🚀 Como usar este repositório
+## 🔍 Como Consultar Este Repositório
 
-Este é um repositório pessoal de estudos, mas sinta-se à vontade para:
+Este repositório pode ser útil para quem está fazendo o mesmo curso e quer comparar abordagens ou entender soluções alternativas.
 
-- ⭐ Dar uma estrela se achar o projeto inspirador
-- 🍴 Fazer um fork para criar a sua própria Odyssey
-- 💬 Abrir uma issue com sugestões de exercícios ou recursos
+**Para navegar pelos exercícios:**
+1. Acesse a pasta do Mundo correspondente à sua etapa no curso
+2. Os exercícios seguem a numeração original do curso (`exercicio_#003.py`, `exercicio_#004.py`, etc.)
+3. O arquivo `cores.py` em `mundo-1/exercicios/` é um módulo auxiliar com constantes ANSI — necessário para rodar os exercícios com cores no terminal
+
+**Para rodar localmente:**
+```bash
+git clone https://github.com/marioandreitesta/curso-em-video-python.git
+cd curso-em-video-python
+python mundo-1/exercicios/exercicio_#003.py
+```
+
+**Sugestões e correções** são bem-vindas via Issues ou Pull Requests. Se encontrar uma abordagem mais elegante ou identificar algum erro, fique à vontade para abrir uma discussão.
 
 ---
 
 ## 📬 Contato
 
-Feito com 💛 e muito `print("hello, world")` por **Andrei S.T.**
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marioandreitesta)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marioandreitesta/)
+<a href="https://github.com/marioandreitesta">
+  <img src="https://img.shields.io/badge/GitHub-marioandreitesta-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://www.linkedin.com/in/marioandreitesta/">
+  <img src="https://img.shields.io/badge/LinkedIn-Mario%20Andrei-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
 ---
 
-*"A jornada de mil milhas começa com um único passo."* — Lao Tsé
+<p align="center">
+  <sub>Feito com consistência, curiosidade e muitos commits corrigidos. 🐍</sub>
+</p>
