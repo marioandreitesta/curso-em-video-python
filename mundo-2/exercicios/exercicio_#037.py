@@ -17,6 +17,10 @@ def converter_numero(numero: int) -> tuple[int, str]:
     while True:
 
         try:
+            print("Escolha a base númerica para realizar a conversão:")
+            print("[1]: Binário")
+            print("[2]: Octal")
+            print("[3]: Hexadecimal")
             base_conversao = int(input("Escolha a base númerica: "))
             
             binario: str = bin(numero)
