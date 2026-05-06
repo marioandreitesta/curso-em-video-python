@@ -3,7 +3,6 @@
 # Mario Andrei | curso-em-video-python
 # ─────────────────────────────────────────────
 
-# Versão alvo do Python
 target-version = "py312"
 
 # Comprimento máximo de linha (padrão Black/indústria)
@@ -40,7 +39,6 @@ select = [
     "TCH",    # flake8-type-checking — imports usados só em type hints
     "SLF",    # flake8-self — uso incorreto de self/cls
     "RSE",    # flake8-raise — boas práticas em raise de exceções
-    "T201",   # flake8-print — avisa sobre print() (mantido para aprendizado)
 ]
 
 ignore = [
@@ -48,6 +46,7 @@ ignore = [
     "B008",   # chamada de função em argumento padrão — falso positivo comum
     "PLR0913",# muitos argumentos em função — desnecessário para estudos
     "UP007",  # use X | Y em vez de Optional — compatibilidade
+    "T201",   # flake8-print — avisa sobre print() (mantido para aprendizado)
 ]
 
 # Correções automáticas seguras habilitadas
