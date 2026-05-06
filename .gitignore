@@ -2,3 +2,4 @@
 cursos/livros/
 research/
 __pycache__/
+ruff.toml/
